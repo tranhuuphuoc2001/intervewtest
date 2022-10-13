@@ -1,0 +1,41 @@
+{
+    "name": "besolutions",
+    "version": "0.0.1",
+    "private": true,
+    "author": "BE Solutions",
+    "license": "",
+    "contributors": [],
+    "engines": {
+        "node": ">=8.10.0",
+        "npm": ">6.4.0"
+    },
+    "scripts": {
+        "start": "node main.js",
+        "https": "node main https",
+        "local": "node main --settings=setting.js --max-old-space-size=18000",
+        "test": "jest --logHeapUsage --debug --detectOpenHandles"
+    },
+    "dependencies": {
+        "async": "^3.2.4",
+        "bluebird": "3.5.3",
+        "body-parser": "1.18.3",
+        "compression": "1.7.3",
+        "connect": "3.6.6",
+        "cors": "2.8.5",
+        "csurf": "1.9.0",
+        "dotenv": "8.2.0",
+        "express": "4.16.4",
+        "express-session": "1.15.6",
+        "helmet": "3.22.0",
+        "lodash": "^4.17.21",
+        "log4js": "^6.7.0",
+        "moment": "^2.29.4",
+        "morgan": "1.9.1",
+        "nocache": "2.1.0",
+        "querystring": "0.2.0",
+        "request": "2.88.2",
+        "request-promise": "4.2.2",
+        "validator": "^13.7.0"
+    },
+    "devDependencies": {}
+}
